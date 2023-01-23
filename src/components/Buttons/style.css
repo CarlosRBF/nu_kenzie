@@ -1,0 +1,40 @@
+.button-text {
+  background-color: rgba(var(--color-primary), 1);
+  color: #fff;
+  border-radius: 8px;
+  padding: 14px 20px;
+  border: 2px solid #fd377e;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-text:hover {
+  background-color: rgba(var(--color-primary2), 1);
+  color: rgba(248, 249, 250, 1);
+}
+
+.button-infoGrey-2 {
+  background-color: rgba(var(--grey-2), 1);
+  border-radius: 8px;
+  padding: 10.5px 15px;
+  border: 1.4px solid #e9ecef;
+  cursor: pointer;
+}
+
+.button-infoGrey-2:hover {
+  background-color: rgba(var(--grey-4), 1);
+  color: rgba(var(--grey-1), 1);
+}
+
+.button-value {
+  background-color: rgba(var(--grey-1), 1);
+  border-radius: 8px;
+  padding: 11px 104px 11px 16px;
+  border: 2px solid #f8f9fa;
+}
+
+.button-value:hover {
+  background-color: rgba(var(--grey-2), 1);
+  color: rgba(var(--grey-4));
+  border: 1.2px solid #212529;
+}
